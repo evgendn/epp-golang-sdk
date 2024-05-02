@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-type dictionary map[string]interface{}
+type Dictionary map[string]interface{}
 
 type testData struct {
 	Experiment             string                  `json:"experiment"`
@@ -20,7 +20,7 @@ type testData struct {
 
 type subjectWithAttributes struct {
 	SubjectKey        string     `json:"subjectKey"`
-	SubjectAttributes dictionary `json:"subjectAttributes"`
+	SubjectAttributes Dictionary `json:"subjectAttributes"`
 }
 
 type testDataVariations struct {

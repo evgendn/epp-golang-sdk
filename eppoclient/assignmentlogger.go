@@ -13,7 +13,7 @@ type AssignmentEvent struct {
 	Variation         Value      `json:"variation"`
 	Subject           string     `json:"subject"`
 	Timestamp         string     `json:"timestamp"`
-	SubjectAttributes dictionary `json:"subjectAttributes,omitempty"`
+	SubjectAttributes Dictionary `json:"subjectAttributes,omitempty"`
 }
 
 type AssignmentLogger struct {
